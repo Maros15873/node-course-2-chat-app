@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "mocha server/**/*.test.js",
-    "start": "node chat.js"
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js"
   },
   "author": "",
   "license": "ISC",
